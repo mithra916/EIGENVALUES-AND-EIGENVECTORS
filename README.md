@@ -14,9 +14,11 @@ Prepare the lists from each linear equations and assign in np.array()
 ### Step 4: 
 End the program
 ## Program:
+```
+## to find the Eigenvalues and Eigen Vectors
 ## DEVELOPED BY: LOGA MITHRA R
 ## REGISTER NUMBER: 212223100027
-```
+
 import numpy as np
 A=np.array([[2,2],[1,3]])
 Eighenvalues,Eighenvectors=np.linalg.eig(A)
